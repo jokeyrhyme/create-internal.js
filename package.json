@@ -1,0 +1,55 @@
+{
+  "name": "create-internal",
+  "description": "simple storage and access of private values, powered by WeakMaps",
+  "version": "1.0.0",
+  "author": "Ron Waldon <jokeyrhyme@gmail.com> (https://github.com/jokeyrhyme)",
+  "bugs": {
+    "url": "https://github.com/jokeyrhyme/create-internal.js/issues"
+  },
+  "dependencies": {
+    "eslint": "3.12.2",
+    "eslint-config-standard": "6.2.1",
+    "eslint-plugin-node": "3.0.5",
+    "eslint-plugin-promise": "3.4.0",
+    "eslint-plugin-standard": "2.0.1",
+    "fixpack": "2.3.1",
+    "flow-bin": "0.37.3"
+  },
+  "devDependencies": {
+    "eslint": "^3.12.2",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-node": "^3.0.5",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^2.0.1",
+    "fixpack": "^2.3.1",
+    "flow-bin": "^0.37.3"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "engines": {
+    "node": ">=4",
+    "npm": ">=3"
+  },
+  "homepage": "https://github.com/jokeyrhyme/create-internal.js#readme",
+  "keywords": [
+    "class",
+    "internal",
+    "namespace",
+    "private",
+    "weakmap"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jokeyrhyme/create-internal.js.git"
+  },
+  "scripts": {
+    "eslint": "eslint --fix --cache .",
+    "fixpack": "fixpack",
+    "flow_check": "flow check",
+    "posttest": "npm run eslint && npm run flow_check && npm run fixpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
