@@ -13,7 +13,7 @@ const internal = createInternal()
 class MyClass {
   constructor () {
     Object.assign(internal(this), {
-      // only accessible to code with this exact `internal` in scope
+      // accessible to code with this exact `internal` in scope
       privateProperty: 'value'
     })
     Object.assign(this, {
