@@ -1,7 +1,7 @@
 {
   "name": "create-internal",
   "description": "simple storage and access of private values, powered by WeakMaps",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Ron Waldon <jokeyrhyme@gmail.com> (https://github.com/jokeyrhyme)",
   "bugs": {
     "url": "https://github.com/jokeyrhyme/create-internal.js/issues"
