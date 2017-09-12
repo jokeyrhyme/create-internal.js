@@ -4,6 +4,9 @@
 ## Unreleased
 
 
+## 1.1.0 - 2017-09-12
+
+
 ### Added
 
 -   MINOR: new `createMapInternal()` function
